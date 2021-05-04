@@ -23,7 +23,7 @@ public class ReservationServiceTest {
     @InjectMocks
     ReservationService reservationService;
 
-    @Test
+  /*  @Test
     public void getRefundValueFullRefund() {
         Schedule schedule = new Schedule();
 
@@ -32,5 +32,5 @@ public class ReservationServiceTest {
         schedule.setStartDateTime(startDateTime);
 
         Assert.assertEquals(reservationService.getRefundValue(Reservation.builder().schedule(schedule).value(new BigDecimal(10L)).build()), new BigDecimal(10));
-    }
+    }*/
 }
